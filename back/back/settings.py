@@ -28,14 +28,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env.bool('DEBUG',default=False)
+DEBUG = env.bool('DEBUG',default=True)
 
 ALLOWED_HOSTS = [
-    "https://eventback.herokuapp.com/",
-    '0.0.0.0',
-    "127.0.0.1"
-    
-
 ]
 
 
