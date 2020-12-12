@@ -33,7 +33,8 @@ DEBUG = env.bool('DEBUG',default=True)
 ALLOWED_HOSTS = [
     'backend-test1.us-west-2.elasticbeanstalk.com/',
     'backend-test1.elasticbeanstalk.com',
-    '172.31.41.155'
+    '172.31.41.155',
+    '127.0.0.1'
 ]
 
 
