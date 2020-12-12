@@ -31,6 +31,8 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env.bool('DEBUG',default=True)
 
 ALLOWED_HOSTS = [
+    'http://backend-test1.us-west-2.elasticbeanstalk.com/',
+    
 ]
 
 
