@@ -11,7 +11,7 @@ class Student(AbstractUser):
 
     club = models.BooleanField(default=False)
     avtar = models.ImageField(
-        upload_to='avtars/', default='/avtars/profile.jpg')
+        upload_to='avtars/',null=True)
 
     def __str__(self):
         return self.username
