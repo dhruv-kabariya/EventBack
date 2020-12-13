@@ -5,6 +5,7 @@
 !.elasticbeanstalk/*.global.yml
 
 data.txt
+.csv
 .cred
 env
 *.pyc
